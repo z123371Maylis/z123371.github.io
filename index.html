@@ -1,10 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Portofolio</title>
 </head>
 <body>
-    
+    <nav>
+        <a href="#home" class="nav-link">
+            <svg height="18" width="18" xmlns="http://www.w3.org/2000/svg">
+                <circle r="8" cx="9" cy="9" stroke="white" stroke-width="2" fill="transparent" />
+            </svg>
+            <span>Home</span>
+        </a>
+        <svg height="26" width="18" xmlns="http://www.w3.org/2000/svg">
+            <line x1="9" y1="0" x2="9" y2="26" stroke="white" />
+        </svg>
+        <a href="#about" class="nav-link">
+            <svg height="18" width="18" xmlns="http://www.w3.org/2000/svg">
+                <circle r="8" cx="9" cy="9" stroke="white" stroke-width="2" fill="transparent" />
+            </svg>
+            <span>About me</span>
+        </a>
+        <svg height="26" width="18" xmlns="http://www.w3.org/2000/svg">
+            <line x1="9" y1="0" x2="9" y2="26" stroke="white" />
+        </svg>
+        <a href="#works" class="nav-link">
+            <svg height="18" width="18" xmlns="http://www.w3.org/2000/svg">
+                <circle r="8" cx="9" cy="9" stroke="white" stroke-width="2" fill="transparent" />
+            </svg>
+            <span>My projects in school</span>
+        </a>
+    </nav>
+    <section id="home">
+        <img class="portofolio-title" src="./assets/portofolio_title.png" alt="Portofolio" />
+        <div class="section-display">
+            <div class="placeholder"></div>
+            <div class="presentation">
+                <div>
+                    <h3>Hello,</h3>
+                    <h1>My name is <span>Maylis Ducournau</span>,</h1>
+                    <h2>I'm a student in <span>computer science</span>.</h2>
+                </div>
+                <img class="desktop-computer" src="./assets/desktop computer-bro 1.png" alt="Desktop computer" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="section-display">
+            <div class="placeholder"></div>
+            <div class="presentation">
+                <img class="gaming-person" src="./assets/Gaming-bro 1.png" alt="Person playing video games" />
+                <p>
+                    I'm currently finishing my fourth year at Epitech in a partner university in Japan, 
+                    Shibaura Institute of Technology. I started playing video games as a child since then 
+                    I always been really interested in this branch and would like to work in it as a programmer. 
+                    I would love to also create my own game, create the program and the designs, as digital 
+                    art is also one of my many hobbies.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="works">
+        <div class="section-display">
+            <div class="placeholder"></div>
+            <div class="list-work">
+                <div class="work">
+                    <h5>R-TYPE</h5>
+                </div>
+                <div class="work">
+                    <h5>Indie Studio</h5>
+                </div>
+                <div class="work">
+                    <h5>Lexya</h5>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
